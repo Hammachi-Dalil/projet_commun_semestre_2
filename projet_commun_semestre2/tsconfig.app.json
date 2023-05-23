@@ -7,6 +7,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["vite/client", "vite-plugin-pages/client"]
   }
 }
+
+// ajouter la commande a ajouter sur tsconfig.json dans ce fichier
