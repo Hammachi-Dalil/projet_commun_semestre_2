@@ -110,7 +110,7 @@
   </div>
   <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-2.5">
     <img
-      src="mmi_-_logo_quadri_-white-2.png"
+      src="../image/MMI_-_logo_quadri_-white.png"
       class="flex-grow-0 flex-shrink-0 w-[109px] h-[78px] object-cover"
     />
   </div>
