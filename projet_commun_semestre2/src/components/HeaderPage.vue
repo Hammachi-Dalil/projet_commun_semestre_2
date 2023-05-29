@@ -4,7 +4,7 @@ import LogoIcon from '@/components/icons/IconLogo.vue'
 </script>
 
 <template>
-  <header class="bg-[#3C5266]">
+  <header class="bg-couleur-tonique-1">
     <div>
       <a href="/">
         <LogoIcon />
