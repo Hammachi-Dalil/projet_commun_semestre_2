@@ -12,8 +12,8 @@
   xmlns="http://www.w3.org/2000/svg"
   preserveAspectRatio="none"
 >
-  <circle cx="59" cy="59" r="59" fill="#3C5266"></circle></svg
-><svg
+  <circle cx="59" cy="59" r="59" fill="#3C5266"></circle></svg>
+  <svg
   width="80"
   height="80"
   viewBox="0 0 80 80"
