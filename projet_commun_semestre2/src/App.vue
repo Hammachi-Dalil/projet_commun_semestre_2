@@ -7,7 +7,9 @@
 <template>
   <Header />
     <main>
-      <RouterView />
+      <Suspense>
+        <RouterView />
+      </Suspense>
     </main>
   <Footer />
 </template>
