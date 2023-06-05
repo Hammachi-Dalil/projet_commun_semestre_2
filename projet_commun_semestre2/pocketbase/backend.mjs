@@ -20,3 +20,23 @@ export async function AllJoueurByEquipe(p){
     });
     return sortedJoueurEquipe;
 }
+    
+export async function login() {
+    await pb.collection('users').authWithPassword(document.getElementById("login").value,
+    document.getElementById("passwd").value);
+}
+
+
+export async function register() {
+      await pb.collection('users').create({
+        email: document.getElementById("login").value,
+        password: document.getElementById("passwd").value,
+        passwordConfirm: document.getElementById("passwd").value,
+        name: document.getElementById("name").value,
+      });
+    }
+
+
+export async function reset_password() {
+      await pb.collection('users').requestPasswordReset(document.getElementById("login").value);
+    }

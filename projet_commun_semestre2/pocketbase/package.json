@@ -1,7 +1,6 @@
 {
   "name": "pocketbase",
   "version": "1.0.0",
-  "description": "",
   "main": "testback.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,7 @@
   "type": "module",
   "dependencies": {
     "pocketbase": "^0.15.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

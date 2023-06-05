@@ -8,7 +8,8 @@ export default {
 
     extend: {
       fontFamily: {
-          'montserrat' : ['Montserrat', 'sans-serif']
+          'montserrat' : ['Montserrat', 'sans-serif'],
+          'raleway' : ['Raleway', 'sans-serif']
       },
 
       colors: {

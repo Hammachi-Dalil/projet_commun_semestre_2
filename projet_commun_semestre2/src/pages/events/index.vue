@@ -63,7 +63,7 @@ import IconEquipe from '@/components/icons/LogoEquipe.vue'
 <div class="flex justify-center my-4">
 <div class="w-[298px] h-[133px] relative">
   <div
-    class="w-[298px] h-[133px] absolute left-[-1px] top-[-1px] rounded-[5px] bg-couleur-tonique-1"
+    class="w-[298px] h-[133px] lg:w-[596] lg:h-[266] absolute left-[-1px] top-[-1px] rounded-[5px] bg-couleur-tonique-1"
     style="box-shadow: 0px 4px 4px 0 rgba(0,0,0,0.25);"
   ></div>
   <p class="w-[122px] h-[35px] absolute left-[93px] top-[11px] text-2xl text-left text-white">

@@ -5,13 +5,13 @@ import type { RouterLink } from 'vue-router';
 
 <template>
 <main class="mt-16">
-<p class="text-5xl font-semibold text-center text-black">Binevenue sur</p>
+<p class="text-5xl font-semibold text-center text-black font-raleway">Bienvenu sur</p>
 <div class="flex justify-center mt-8">
 <IconLogo />
 </div>
 
 <div class="w-[340px] h-28 rounded-[20px] bg-[#3c5266] mx-auto mt-16 p-4">
-<p class="w-[281px] text-base font-montserrat font-semibold text-center text-white">
+<p class="w-[281px] text-base font-raleway font-semibold text-center text-white">
   <span class="w-[281px] text-base font-semibold text-white">Montrez ce dont vous êtes capables ! </span>
   <br />
   <span class="w-[281px] text-base font-semibold text-white">
@@ -282,6 +282,7 @@ import type { RouterLink } from 'vue-router';
     1 ere année BUT MMI spécialiste Communication
   </p>
 </div>
+
 
 </main>
 
