@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IconLogo from '@/components/icons/IconLogo.vue';
+import type { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -19,10 +20,11 @@ import IconLogo from '@/components/icons/IconLogo.vue';
 </p>
 </div>
 
-
+<RouterLink to="/events">
 <div class="w-[263px] h-[54px] rounded-[20px] bg-[#b6fa8c] mx-auto my-12">
 <p class="text-2xl font-semibold text-left text-black px-8 py-2">Organiser un five</p>
 </div>
+</RouterLink>
 
 <p class="text-2xl font-semibold text-black text-center my-12">Notre équipe</p>
 
@@ -40,8 +42,8 @@ import IconLogo from '@/components/icons/IconLogo.vue';
     class="absolute left-[11px] top-[17px]"
     preserveAspectRatio="none"
   >
-    <circle cx="48" cy="48" r="48" fill="#D9D9D9"></circle></svg
-  ><svg
+    <circle cx="48" cy="48" r="48" fill="#D9D9D9"></circle></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"

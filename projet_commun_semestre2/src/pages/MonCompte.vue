@@ -96,8 +96,7 @@ preserveAspectRatio="none">
   xmlns="http://www.w3.org/2000/svg"
   preserveAspectRatio="none"
 >
-  <line x1="0.362976" y1="0.656128" x2="18.363" y2="19.6561" stroke="black"></line></svg
-><svg
+  <line x1="0.362976" y1="0.656128" x2="18.363" y2="19.6561" stroke="black"></line></svg><svg
   width="20"
   height="20"
   viewBox="0 0 20 20"
