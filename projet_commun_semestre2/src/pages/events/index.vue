@@ -6,6 +6,10 @@ import IconEquipe from '@/components/icons/LogoEquipe.vue'
 </script>
 
 <template>
+
+<div ref="mapContainer" class="mapContainer"></div>
+
+
     <main class="mt-16">
         <p class="text-2xl font-semibold text-black text-center my-4">Organiser un five</p>
 

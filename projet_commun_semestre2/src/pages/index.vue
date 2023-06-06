@@ -39,10 +39,10 @@ import type { RouterLink } from 'vue-router';
   ></div>
 
   <img
-  src="div.tmm_photo.png"
-  class="w-[207.61px] h-[219.61px] rounded-[72.63px] object-none border-[6px] border-[#eee]"
+  src="../image/div.tmm_photo.png"
+  class=" absolute w-[207.61px] h-[219.61px] rounded-[72.63px] object-none border-[6px] border-[#eee]"
   style="box-shadow: 2px 0px 1px 0 rgba(0,0,0,0.05);"/>
-  
+
     <svg
     width="40"
     height="40"
