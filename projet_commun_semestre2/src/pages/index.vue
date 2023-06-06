@@ -40,7 +40,7 @@ import type { RouterLink } from 'vue-router';
 
   <img
   src="../image/div.tmm_photo.png"
-  class=" absolute w-[207.61px] h-[219.61px] rounded-[72.63px] object-none border-[6px] border-[#eee]"
+  class=" relative w-[207.61px] h-[219.61px] rounded-[72.63px] object-none border-[6px] border-[#eee] m-16"
   style="box-shadow: 2px 0px 1px 0 rgba(0,0,0,0.05);"/>
 
     <svg

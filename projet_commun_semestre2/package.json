@@ -13,6 +13,7 @@
     "typegen": "pocketbase-typegen --db ./pocketbase/pb_data/data.db --out ./src/pocketbase-types.ts"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "pocketbase": "^0.15.1",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"

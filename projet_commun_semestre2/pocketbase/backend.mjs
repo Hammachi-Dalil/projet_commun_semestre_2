@@ -1,5 +1,5 @@
 import PocketBase from 'pocketbase';
-const pb = new PocketBase('http://127.0.0.1:8090');
+export const pb = new PocketBase('http://127.0.0.1:8090');
 
 // définir les fonctions
 
@@ -40,3 +40,5 @@ export async function register() {
 export async function reset_password() {
       await pb.collection('users').requestPasswordReset(document.getElementById("login").value);
     }
+
+    

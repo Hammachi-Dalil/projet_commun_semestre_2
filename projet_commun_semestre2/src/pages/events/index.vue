@@ -1,13 +1,39 @@
 <script setup lang="ts">
+import { onMounted, ref } from "vue";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
 import inviter from '@/components/icons/inviter.vue';
 import AjouterAmis from '@/components/icons/AjouterAmis.vue';
-import IconEquipe from '@/components/icons/LogoEquipe.vue'
+import IconEquipe from '@/components/icons/LogoEquipe.vue';
+
+
+const mapContainer = ref(null);
+const locations = [
+  { latLng: [47.509849, 6.805154], name: 'L’arena 25, 2 Rue Pierre Donzelot, 25200 Montbéliard' },
+  { latLng: [47.512911, 6.827492], name: 'Street soccer, 8 Rue des Sablières, 25400 Arbouans' },
+  { latLng: [47.507601, 6.790427], name: 'City stade, 3 Rte de Bethoncourt, 25200 Montbéliard' }
+];
+
+onMounted(() => {
+  const map = L.map(mapContainer.value).setView([47.5105, 6.7973], 13);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+  }).addTo(map);
+
+  // Adding markers to the map
+  locations.forEach(location => {
+    L.marker(location.latLng).addTo(map).bindPopup(location.name);
+  });
+});
 
 </script>
 
+
+
 <template>
 
-<div ref="mapContainer" class="mapContainer"></div>
+<div ref="mapContainer" class="mapContainer mx-auto mt-20 w-full h-[600px] relative"></div>
 
 
     <main class="mt-16">
@@ -84,3 +110,4 @@ import IconEquipe from '@/components/icons/LogoEquipe.vue'
 </div>
     </main>
 </template>
+
