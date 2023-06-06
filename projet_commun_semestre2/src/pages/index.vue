@@ -10,14 +10,16 @@ import type { RouterLink } from 'vue-router';
 <IconLogo />
 </div>
 
-<div class="w-[340px] h-28 rounded-[20px] bg-[#3c5266] mx-auto mt-16 p-4">
-<p class="w-[281px] text-base font-raleway font-semibold text-center text-white">
+<div class="lg:text-center">
+<div class="w-80 h-28 rounded-[20px] bg-[#3c5266] mx-auto mt-16 p-4 lg:h-auto lg:w-6/12">
+<p class="text-base font-raleway font-semibold text-center text-white lg:text-xl">
   <span class="w-[281px] text-base font-semibold text-white">Montrez ce dont vous êtes capables ! </span>
   <br />
   <span class="w-[281px] text-base font-semibold text-white">
     invitez vos amis, trouvez un terrain libre et commencez à jouer !
   </span>
 </p>
+</div>
 </div>
 
 <RouterLink to="/events">
@@ -28,21 +30,19 @@ import type { RouterLink } from 'vue-router';
 
 <p class="text-2xl font-semibold text-black text-center my-12">Notre équipe</p>
 
+<div class="lg:w-2/4">
+
 <div class="w-[349px] h-[248px] relative mx-auto mt-4 mb-2">
   <div
-    class="w-[349px] h-[248px] absolute left-[-0.91px] top-[-0.91px] rounded-[10px] bg-[#333]"
+    class="w-[349px] h-[248px] absolute left-[-0.91px] top-[-0.91px] rounded-[10px] bg-[#333] lg:w-[900px]"
     style="box-shadow: 0px 20px 20px 0 rgba(0,0,0,0.25);"
   ></div>
-  <svg
-    width="96"
-    height="96"
-    viewBox="0 0 96 96"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    class="absolute left-[11px] top-[17px]"
-    preserveAspectRatio="none"
-  >
-    <circle cx="48" cy="48" r="48" fill="#D9D9D9"></circle></svg>
+
+  <img
+  src="div.tmm_photo.png"
+  class="w-[207.61px] h-[219.61px] rounded-[72.63px] object-none border-[6px] border-[#eee]"
+  style="box-shadow: 2px 0px 1px 0 rgba(0,0,0,0.05);"/>
+  
     <svg
     width="40"
     height="40"
@@ -58,8 +58,8 @@ import type { RouterLink } from 'vue-router';
       stroke-width="3.33333"
       stroke-linecap="round"
       stroke-linejoin="round"
-    ></path></svg
-  ><svg
+    ></path></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
@@ -74,8 +74,8 @@ import type { RouterLink } from 'vue-router';
       stroke-width="3.33333"
       stroke-linecap="round"
       stroke-linejoin="round"
-    ></path></svg
-  ><svg
+    ></path></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
@@ -107,16 +107,17 @@ import type { RouterLink } from 'vue-router';
     ></path>
   </svg>
   <p class="absolute left-[159px] top-2.5 text-2xl text-left text-white">Dalil Hammachi</p>
-  <p class="w-[197px] h-[118px] absolute left-[125px] top-[55px] text-xl text-left text-white">
+  <p class="w-[197px] h-[118px] absolute left-[125px] top-[55px] text-xl text-left text-white lg:text-2xl lg:w-72">
     1 ere année BUT MMI spécialiste Développement
   </p>
 </div>
 
+</div>
 
-
+<div class="lg:w-1/2">
 <div class="w-[349px] h-[248px] relative mx-auto mt-4 mb-2">
   <div
-    class="w-[349px] h-[248px] absolute left-[-0.91px] top-[-0.91px] rounded-[10px] bg-[#333]"
+    class="w-[349px] h-[248px] absolute left-[-0.91px] top-[-0.91px] rounded-[10px] bg-[#333] lg:w-[900px]"
     style="box-shadow: 0px 20px 20px 0 rgba(0,0,0,0.25);"
   ></div>
   <svg
@@ -144,24 +145,23 @@ import type { RouterLink } from 'vue-router';
       stroke-width="3.33333"
       stroke-linecap="round"
       stroke-linejoin="round"
-    ></path></svg
-  ><svg
+    ></path></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     class="w-10 h-10 absolute left-[155px] top-[182px]"
-    preserveAspectRatio="none"
-  >
+    preserveAspectRatio="none">
     <path
       d="M30.0001 3.33331H25.0001C22.7899 3.33331 20.6703 4.21129 19.1075 5.77409C17.5447 7.33689 16.6667 9.45651 16.6667 11.6666V16.6666H11.6667V23.3333H16.6667V36.6666H23.3334V23.3333H28.3334L30.0001 16.6666H23.3334V11.6666C23.3334 11.2246 23.509 10.8007 23.8216 10.4881C24.1341 10.1756 24.5581 9.99998 25.0001 9.99998H30.0001V3.33331Z"
       stroke="#B6FA8C"
       stroke-width="3.33333"
       stroke-linecap="round"
       stroke-linejoin="round"
-    ></path></svg
-  ><svg
+    ></path></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
@@ -192,16 +192,17 @@ import type { RouterLink } from 'vue-router';
       stroke-linejoin="round"
     ></path>
   </svg>
-  <p class="absolute left-[159px] top-2.5 text-2xl text-left text-white">Kubilay Yardimli</p>
-  <p class="w-[197px] h-[118px] absolute left-[125px] top-[55px] text-xl text-left text-white">
+  <p class="absolute left-[159px] top-2.5 text-2xl text-left text-white lg:text-2xl">Kubilay Yardimli</p>
+  <p class="w-[197px] h-[118px] absolute left-[125px] top-[55px] text-xl text-left text-white lg:text-2xl lg:w-72">
     1 ere année BUT MMI spécialiste Design
   </p>
 </div>
+</div>
 
-
+<div class="lg:w-2/4">
 <div class="w-[349px] h-[248px] relative mx-auto mt-4 mb-24">
   <div
-    class="w-[349px] h-[248px] absolute left-[-0.91px] top-[-0.91px] rounded-[10px] bg-[#333]"
+    class="w-[349px] h-[248px] absolute left-[-0.91px] top-[-0.91px] rounded-[10px] bg-[#333] lg:w-[900px]"
     style="box-shadow: 0px 20px 20px 0 rgba(0,0,0,0.25);"
   ></div>
   <svg
@@ -229,8 +230,8 @@ import type { RouterLink } from 'vue-router';
       stroke-width="3.33333"
       stroke-linecap="round"
       stroke-linejoin="round"
-    ></path></svg
-  ><svg
+    ></path></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
@@ -245,8 +246,8 @@ import type { RouterLink } from 'vue-router';
       stroke-width="3.33333"
       stroke-linecap="round"
       stroke-linejoin="round"
-    ></path></svg
-  ><svg
+    ></path></svg>
+    <svg
     width="40"
     height="40"
     viewBox="0 0 40 40"
@@ -277,10 +278,12 @@ import type { RouterLink } from 'vue-router';
       stroke-linejoin="round"
     ></path>
   </svg>
-  <p class="absolute left-[159px] top-2.5 text-2xl text-left text-white">Noah Ripert</p>
-  <p class="w-[197px] h-[118px] absolute left-[125px] top-[55px] text-xl text-left text-white">
+
+  <p class="absolute left-[159px] top-2.5 text-2xl text-left text-white lg:text-2xl">Noah Ripert</p>
+  <p class="w-[197px] h-[118px] absolute left-[125px] top-[55px] text-xl text-left text-white lg:text-2xl lg:w-72">
     1 ere année BUT MMI spécialiste Communication
   </p>
+</div>
 </div>
 
 

@@ -1,3 +1,4 @@
+
 import PocketBase from 'pocketbase'
 const pb = new PocketBase('http://127.0.0.1:8090');
 
@@ -13,7 +14,7 @@ export async function allEquipe() {
     return ListeEquipe;
 }
 
-export async function AllJoueurByEquipe(p){
+export async function AllJoueurByEquipe(p:string){
     const sortedJoueurEquipe = await pb.collection('equipe').getFullList({
      filter: `nom = '${p}'`,
         expand: 'joueur',

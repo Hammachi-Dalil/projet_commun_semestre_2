@@ -19,6 +19,7 @@ export default {
         "couleur-tonique-3": "#333333"
        },
 
+
     },
   },
   plugins: [],
