@@ -28,7 +28,7 @@ function closeMenu() {
 		    <ul class="mt-[25vh] ml-16 lg:m-0 lg:flex">
 		      <li class="menu-item"><RouterLink class="menu-link" to="/" @click="closeMenu">Accueil</RouterLink></li>
           <li class="menu-item"><RouterLink class="menu-link" to="/events" @click="closeMenu">Jouer</RouterLink></li>
-		      <li class="menu-item"><RouterLink class="menu-link" to="/MonEquipe" @click="closeMenu">Mon équipe</RouterLink></li>
+		      <li class="menu-item"><RouterLink class="menu-link" to="/monEquipe" @click="closeMenu">Mon équipe</RouterLink></li>
           <li class="menu-item"><RouterLink class="menu-link" to="/MonCompte" @click="closeMenu">Mon compte</RouterLink></li>
 		      <li class="menu-item"><RouterLink class="menu-link" to="/Contact" @click="closeMenu">Messagerie</RouterLink></li>
 		    </ul>

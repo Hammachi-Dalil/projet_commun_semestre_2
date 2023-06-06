@@ -21,4 +21,8 @@ export async function AllJoueurByEquipe(p:string){
     });
     return sortedJoueurEquipe;
 }
-    
+
+export async function JoueurById(id:string) {
+    const unJoueur = await pb.collection('joueur').getOne(id);
+    return unJoueur;
+}

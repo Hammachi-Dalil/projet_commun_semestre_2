@@ -14,8 +14,10 @@ const url = `/events/${props.id}`
         <div class="lg:text-xl bg-couleur-tonique-2 mx-20 rounded-lg text-base">
 
             <RouterLink class="" :to="`${url}`">
-            <p class="pl-6 font-jaldi">Nom : {{ Nom }}</p>
-            <p class="p-6 font-jaldi text-sm flex justify-center lg:text-base">En savoir plus</p>
+            <p class="pl-6 font-raleway font-bold">Nom : {{ Nom }}</p>
+            <p class="pl-6 font-raleway">Age : {{ Age }}</p>
+            <p class="pl-6 font-raleway">Post : {{ post }}</p>
+            <p class="pl-6 font-raleway">Post : {{ equipe }}</p>
             </RouterLink>
         </div>
     </main>
