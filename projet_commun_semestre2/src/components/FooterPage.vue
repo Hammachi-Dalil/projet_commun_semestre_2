@@ -92,18 +92,18 @@
       Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard
     </p>
   </div>
-  <div class="flex flex-col justify-center items-end flex-grow-0 flex-shrink-0 gap-[15px]">
+  <div class="flex flex-col justify-center flex-grow-0 flex-shrink-0 gap-[15px]">
     <div
-      class="flex justify-end items-end flex-grow-0 flex-shrink-0 h-7 relative gap-[91px] border border-white"
+      class="flex justify-end items-end flex-grow-0 flex-shrink-0 h-7 relative gap-[91px] border border-white text-center"
     >
       <p class="flex-grow-0 flex-shrink-0 w-full text-2xl text-center text-white">
         Conditions d’utilisations
       </p>
     </div>
     <div
-      class="flex justify-end items-end flex-grow-0 flex-shrink-0 h-7 relative gap-[123px] border border-white"
+      class="flex flex-grow-0 flex-shrink-0 h-7 relative gap-[123px] border border-white"
     >
-      <p class="flex-grow-0 flex-shrink-0 w-full text-2xl text-center text-white">
+      <p class="flex justify-end items-end flex-grow-0 flex-shrink-0 w-full text-2xl text-center text-white">
         Politique de Confidentialité
       </p>
     </div>

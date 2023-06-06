@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
+//@ts-ignore
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import inviter from '@/components/icons/inviter.vue';
@@ -33,7 +34,7 @@ onMounted(() => {
 
 <template>
 
-<div ref="mapContainer" class="mapContainer mx-auto mt-20 w-full h-[600px] relative"></div>
+<div ref="mapContainer" class="mapContainer mx-auto mt-20 w-full h-[600px] relative z-10"></div>
 
 
     <main class="mt-16">

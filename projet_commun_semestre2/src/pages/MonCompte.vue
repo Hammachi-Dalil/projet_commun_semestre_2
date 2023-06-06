@@ -1,15 +1,12 @@
 <script lang="ts">
-import modifCompte from '@/components/icons/modifCompte.vue';
-import IconLogo from '@/components/icons/IconLogo.vue';
+import ImageJoueur from '@/components/icons/ImageJoueur.vue';
 </script>
 
 <template>
 
-<main class="mt-16">
-<div>
-<IconLogo />
-<modifCompte />
-</div>
+<main class="mt-24">
+  
+<ImageJoueur />
 <p class="w-[100px] h-[31px] text-base font-semibold text-black mx-auto">Prénom Nom</p>
 
 

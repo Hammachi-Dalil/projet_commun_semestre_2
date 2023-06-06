@@ -12,7 +12,7 @@ const EquipeListe = await allEquipe();
 </script>
 
 <template>
-    <main class="mt-16 mb-16">
+    <main class="mt-24 mb-16">
         <p class="font-raleway text-xl font-bold ml-1">Créer ton équipe</p>
             <div class="my-4 ml-2"> 
             <IconEquipe />

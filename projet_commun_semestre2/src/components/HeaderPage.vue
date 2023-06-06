@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
 import type { RouterLink } from 'vue-router';
+import IconLogo from './icons/IconLogo.vue';
 
 const activeMenu = ref(false)
 
@@ -10,10 +11,10 @@ function closeMenu() {
 </script>
 
 <template>
-    <header class="absolute top-0 z-10 flex w-full translate-y-0 items-stretch justify-between bg-couleur-tonique-1 px-6 py-2 transition-all duration-300 ease-in-out lg:py-0">
+    <header class="absolute top-0 z-20 flex w-full translate-y-0 items-stretch justify-between bg-couleur-tonique-1 px-6 py-2 transition-all duration-300 ease-in-out lg:py-0">
     <div class="fles items-center">
       <a href="/">
-        <p class="text-couleur-tonique-2 font-italiana text-3xl">FiveOn</p>
+        <IconLogo class="lg:m-4"/>
       </a>
     </div>
 

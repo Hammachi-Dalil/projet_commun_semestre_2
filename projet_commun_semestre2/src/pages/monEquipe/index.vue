@@ -4,7 +4,7 @@ import plus from '@/components/icons/plus.vue'
 import { allJoueur } from '@/backend';
 import JoueurCard from '@/components/JoueurCard.vue';
 import { allEquipe } from '@/backend';
-import EquipeCard from '@/components/EquipeCard.vue'
+import EquipeCard from '@/components/EquipeCard.vue';
 
 const JoueurListe = await allJoueur();
 const EquipeListe = await allEquipe();
@@ -12,8 +12,7 @@ const EquipeListe = await allEquipe();
 </script>
 
 <template>
-    <main class="mt-16 mb-16">
-        <p>fichier issue du dossier</p>
+    <main class="mt-20 mb-16">
         <p class="font-raleway text-xl font-bold ml-1">Créer ton équipe</p>
             <div class="my-4 ml-2"> 
             <IconEquipe />

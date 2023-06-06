@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { pb } from '@/backend'
-import type { EquipeResponse } from '@/pocketbase-types'
-const props: EquipeResponse = defineProps<EquipeResponse>()
+import type { EventsResponse } from '@/pocketbase-types'
+const props: EventsResponse = defineProps<EventsResponse>()
 
 
 
@@ -11,7 +11,7 @@ const url = `/events/${props.id}`
 <template>
 
     <main class="py-16">
-        <div class="lg:text-xl bg-couleur-tonique-2 mx-20 rounded-lg text-base border-2 border-couleur-tonique-1">
+        <div class="lg:text-xl bg-couleur-tonique-2 mx-20 rounded-lg text-base">
 
             <RouterLink class="" :to="`${url}`">
             <p class="pl-6 font-jaldi">Nom : {{ nom }}</p>
