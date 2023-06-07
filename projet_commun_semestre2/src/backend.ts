@@ -29,6 +29,6 @@ export async function JoueurById(id:string) {
 }
 
 export async function EquipeById(id:string) {
-    const rep = await pb.collection(Collections.Equipe).getOne<EquipeResponse>(id, {expand:'joueur_link'});
+    const rep = await pb.collection('equipe').getOne<EquipeResponse>(id, {expand:'joueur_link'});
     return rep;
 }

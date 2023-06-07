@@ -94,12 +94,6 @@ style="box-shadow: 0px 20px 20px 0 rgba(0,0,0,0.25);">
   </div>
 </div>
 </div>
-
-
-
-
-
-
 </main>
 
 </template>

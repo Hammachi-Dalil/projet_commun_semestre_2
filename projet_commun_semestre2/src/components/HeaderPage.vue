@@ -14,7 +14,7 @@ function closeMenu() {
     <header class="absolute top-0 z-20 flex w-full translate-y-0 items-stretch justify-between bg-couleur-tonique-1 px-6 py-2 transition-all duration-300 ease-in-out lg:py-0">
     <div class="fles items-center">
       <a href="/">
-        <IconLogo class="lg:m-4"/>
+        <IconLogo class=" "/>
       </a>
     </div>
 

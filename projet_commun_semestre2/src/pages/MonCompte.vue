@@ -6,7 +6,8 @@ import ImageJoueur from '@/components/icons/ImageJoueur.vue';
 
 <main class="mt-24">
   
-<ImageJoueur />
+  <ImageJoueur class="pt-10"/>
+
 <p class="w-[100px] h-[31px] text-base font-semibold text-black mx-auto">Prénom Nom</p>
 
 

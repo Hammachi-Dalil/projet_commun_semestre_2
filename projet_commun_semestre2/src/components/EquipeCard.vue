@@ -5,7 +5,7 @@ const props: EquipeResponse = defineProps<EquipeResponse>()
 
 
 
-const url = `/events/${props.id}`
+const url = `/monEquipe/${props.id}`
 </script>
 
 <template>
@@ -14,8 +14,8 @@ const url = `/events/${props.id}`
         <div class="lg:text-xl bg-couleur-tonique-2 mx-20 rounded-lg text-base border-2 border-couleur-tonique-1">
 
             <RouterLink class="" :to="`${url}`">
-            <p class="pl-6 font-jaldi">Nom : {{ nom }}</p>
-            <p class="p-6 font-jaldi text-sm flex justify-center lg:text-base">En savoir plus</p>
+            <p class="pl-6 font-raleway">Nom : {{ nom }}</p>
+            <p class="p-6 font-raleway text-sm flex justify-center lg:text-base">En savoir plus</p>
             </RouterLink>
         </div>
     </main>
